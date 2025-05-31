@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VariousPermissions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VariousPermissions_jar</output-path>
+    <root id="archive" name="VariousPermissions.jar">
+      <element id="module-output" name="VariousPermissions.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

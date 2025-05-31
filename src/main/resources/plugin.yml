@@ -1,0 +1,20 @@
+name: VariousPermissions
+version: '1.0.0'
+main: wix3y.variousPermissions.VariousPermissions
+api-version: '1.21'
+authors: [ WIX3Y ]
+description: Adds permission requirements for tool, armor and gui usages
+softdepend: ["Luckperms"]
+commands:
+  vppermission:
+    description: Reloads the plugin
+    usage: /vppermission
+    aliases: [variouspermissionsgetpermission,vpgetpermission,variouspermissionspermission]
+    permission: variouspermissions.getpermission
+permissions:
+  variouspermissions.nobeeanger:
+    description: "Prevents bees from getting angry upon harvesting a bee nest or beehive."
+    default: op
+  variouspermissions.getpermission:
+    description: "Allows using the /vppermission command."
+    default: op

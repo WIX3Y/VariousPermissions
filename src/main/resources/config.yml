@@ -1,0 +1,23 @@
+#
+#   ┏━━━━━━━━━━━━━━━━━━━━━━━━ ⊹ ☆ ⊹ ━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+#                      Various Permissions
+#      Source: https://github.com/WIX3Y/VariousPermissions
+#                          Author: WIX3Y
+#
+#   ┗━━━━━━━━━━━━━━━━━━━━━━━━ ⊹ ☆ ⊹ ━━━━━━━━━━━━━━━━━━━━━━━━┛
+#
+#   ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+#
+#                        List of Commands
+#
+#                          vppermission
+#        Get the permission required to use the held item
+#      Required permission: variouspermissions.getpermission
+#                 Example usage: /vppermission
+#
+#   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+#
+
+# Do not change
+config-version: 1
