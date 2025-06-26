@@ -48,6 +48,11 @@ public class PlayerInteractHandler implements Listener {
                 return;
             }
         }
+        else if (materialName.equals("BRUSH")) {
+            if (!(blockMaterial == Material.SUSPICIOUS_GRAVEL || blockMaterial == Material.SUSPICIOUS_SAND)) {
+                return;
+            }
+        }
         else {
             return;
         }

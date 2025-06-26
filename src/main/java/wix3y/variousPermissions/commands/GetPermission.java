@@ -43,6 +43,7 @@ public class GetPermission implements CommandExecutor {
                 material.name().endsWith("_SWORD") ||
                 material == Material.TRIDENT ||
                 material == Material.BOW ||
+                material == Material.BRUSH ||
                 material == Material.CROSSBOW;
     }
 }
