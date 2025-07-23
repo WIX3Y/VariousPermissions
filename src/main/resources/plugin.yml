@@ -4,17 +4,25 @@ main: wix3y.variousPermissions.VariousPermissions
 api-version: '1.21'
 authors: [ WIX3Y ]
 description: Adds permission requirements for tool, armor and gui usages
-softdepend: ["Luckperms"]
+softdepend: ["PlaceholderAPI"]
 commands:
   vppermission:
-    description: Reloads the plugin
+    description: Get the permission for the held item
     usage: /vppermission
     aliases: [variouspermissionsgetpermission,vpgetpermission,variouspermissionspermission]
     permission: variouspermissions.getpermission
+  vptakeitem:
+    description: Take an item from a specified player with a specified item model
+    usage: /vptakeitem
+    aliases: [variouspermissionstakeitem,takeitem]
+    permission: variouspermissions.takeitem
 permissions:
   variouspermissions.nobeeanger:
     description: "Prevents bees from getting angry upon harvesting a bee nest or beehive."
     default: op
   variouspermissions.getpermission:
     description: "Allows using the /vppermission command."
+    default: op
+  variouspermissions.takeitem:
+    description: "Allows using the /vptakeitem command."
     default: op
