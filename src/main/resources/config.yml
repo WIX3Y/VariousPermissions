@@ -13,7 +13,7 @@
 #
 #     VP_has_item_amount_<material>_<namespace>_<key>_<amount>
 #  True if the player has at least the amount of the specified item
-#  Example usage: %VP_has_item_amount_STICK_mynamespace_mymodel_2%
+#  Example usage: %VP_has_item_amount_STICK-mynamespace-mymodel-2%
 #
 #
 #   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛

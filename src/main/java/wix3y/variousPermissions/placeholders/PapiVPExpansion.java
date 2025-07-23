@@ -54,7 +54,7 @@ public class PapiVPExpansion extends PlaceholderExpansion {
         }
 
         if (params.startsWith("has_item_amount_")) {
-            String[] parameters = params.substring(16).split("_");
+            String[] parameters = params.substring(16).split("-");
             if (parameters.length != 4) {
                 return null;
             }
