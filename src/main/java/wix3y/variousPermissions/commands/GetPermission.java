@@ -44,6 +44,7 @@ public class GetPermission implements CommandExecutor {
                 material == Material.TRIDENT ||
                 material == Material.BOW ||
                 material == Material.BRUSH ||
+                material == Material.FISHING_ROD ||
                 material == Material.CROSSBOW;
     }
 }

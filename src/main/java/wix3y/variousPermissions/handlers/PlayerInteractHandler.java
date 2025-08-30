@@ -24,7 +24,7 @@ public class PlayerInteractHandler implements Listener {
      * @param event the player interact event
      */
     @EventHandler
-    public void onPlayerBlockBreak(PlayerInteractEvent event) {
+    public void onPlayerInteract(PlayerInteractEvent event) {
         if (event.getAction() != Action.RIGHT_CLICK_BLOCK) {
             return;
         }
