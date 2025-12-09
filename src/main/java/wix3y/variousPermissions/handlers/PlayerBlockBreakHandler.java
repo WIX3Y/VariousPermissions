@@ -86,7 +86,9 @@ public class PlayerBlockBreakHandler implements Listener {
             return;
         }
 
-        event.setDropItems(false);
+        player.sendMessage(MiniMessage.miniMessage().deserialize("<red>You need a higher tier pickaxe to mine this ore."));
+        event.setCancelled(true);
+//        event.setDropItems(false);
     }
 
     private boolean highEnoughToolTier(Material block, String tool) {
