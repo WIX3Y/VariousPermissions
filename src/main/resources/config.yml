@@ -15,6 +15,10 @@
 #  True if the player has at least the amount of the specified item
 #  Example usage: %VP_has_item_amount_STICK-mynamespace-mymodel-2%
 #
+#      VP_has_book_amount_<enchantment>_<level>_<amount>
+# True if the player has at least the amount of the specified enchanted book
+#      Example usage: %VP_has_item_amount_UNBREAKING-3-10%
+#
 #
 #   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 #
@@ -23,14 +27,19 @@
 #                        List of Commands
 #
 #                          vppermission
-#        Get the permission required to use the held item
-#      Required permission: variouspermissions.getpermission
-#                 Example usage: /vppermission
+#       Get the permission required to use the held item
+#     Required permission: variouspermissions.getpermission
+#                Example usage: /vppermission
 #
 #  vptakeitem <player> <material> <item-model-namespace> <item-model-key> <amount>
 #       Take an item with specified item model from a player
-#      Required permission: variouspermissions.takeitem
+#       Required permission: variouspermissions.takeitem
 #  Example usage: /vptakeitem WIX3Y STICK mynamespace mymodel 2
+#
+#      vptakebook <player> <enchantment> <level> <amount>
+# Take an enchanted book with specified enchantment from a player
+#       Required permission: variouspermissions.takebook
+#       Example usage: /vptakebook WIX3Y UNBREAKING 3 10
 #
 #   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 #

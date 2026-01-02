@@ -16,6 +16,11 @@ commands:
     usage: /vptakeitem
     aliases: [variouspermissionstakeitem,takeitem]
     permission: variouspermissions.takeitem
+  vptakebook:
+    description: Take an enchanted book from a specified player with a specified enchantment
+    usage: /vptakebook
+    aliases: [variouspermissionstakebook,takebook]
+    permission: variouspermissions.takebook
 permissions:
   variouspermissions.nobeeanger:
     description: "Prevents bees from getting angry upon harvesting a bee nest or beehive."
@@ -25,4 +30,7 @@ permissions:
     default: op
   variouspermissions.takeitem:
     description: "Allows using the /vptakeitem command."
+    default: op
+  variouspermissions.takebook:
+    description: "Allows using the /vptakebook command."
     default: op

@@ -4,6 +4,7 @@ import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import wix3y.variousPermissions.commands.GetPermission;
+import wix3y.variousPermissions.commands.TakeBook;
 import wix3y.variousPermissions.commands.TakeItem;
 import wix3y.variousPermissions.handlers.*;
 import wix3y.variousPermissions.placeholders.PapiVPExpansion;
@@ -22,6 +23,7 @@ public final class VariousPermissions extends JavaPlugin {
 
         getCommand("vppermission").setExecutor(new GetPermission());
         getCommand("vptakeitem").setExecutor(new TakeItem());
+        getCommand("vptakebook").setExecutor(new TakeBook());
 
         if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) {
             new PapiVPExpansion().register();
